@@ -1,27 +1,8 @@
 # OdevDagitimPortaliKKK
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Giriş yap
+![image](https://user-images.githubusercontent.com/75438365/211595521-1f7ceb93-c269-4c4a-af11-91c0b9a5a0f1.png)
+Anasayfa öğrenci ekleme çıkarma ve düzenleme
+![image](https://user-images.githubusercontent.com/75438365/211595631-29b6e783-386d-4b4d-8dcf-484df0b6035a.png)
+Ödev ekleme çıkarma bitirme
+![image](https://user-images.githubusercontent.com/75438365/211595773-bac3d9c6-05a4-4556-bee4-72c776874368.png)
