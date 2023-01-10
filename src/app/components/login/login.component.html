@@ -1,0 +1,32 @@
+<div class="container mt-5 login-box">
+    <div class="row">
+        <div class="col-md-4 offset-4">
+            <form #frm="ngForm" (ngSubmit)="girisYap(kadi.value, sifre.value)">
+                <div class="card bg-secondary text-white">
+                    <div class="card-header">
+                        <h4>Yetkili Girişi</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>E-posta Adresiniz</label>
+                            <input type="text" class="form-control" name="kadi" #kadi required>
+                        </div>
+                        <div class="form-group">
+                            <label>Şifre</label>
+                            <input type="password" class="form-control" name="sifre" #sifre required>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <input type="submit" value="Giriş Yap" class="btn btn-info login-btn text-white m-0 me-auto btn-block offset-3 w-50">
+                    </div>
+                    <div class="google-login mt-4 w-100 ps-3 mb-3">
+                        <asl-google-signin-button></asl-google-signin-button>
+                    </div>
+                </div>
+            </form>
+            <div [ngClass]="sonuc.islem ? 'alert alert-success':'alert alert-danger'" *ngIf="sonuc.mesaj?.length>0">
+                {{sonuc.mesaj}}</div>
+        </div>
+
+    </div>
+</div>
